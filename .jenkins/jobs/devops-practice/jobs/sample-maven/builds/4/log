@@ -1,0 +1,21 @@
+Started by user [8mha:////4Dafb0UfgSpvFgtXEXdNGgm1IvxANvrx0SbXsRrSZ09OAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgYe/dLi1CL94oz8pMQ8AIJoyCbBAAAA[0mShoban Cheekuru
+Building in workspace /Users/scheekur/.jenkins/workspace/devops-practice/sample-maven
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/shobancs/spring-websample.git # timeout=10
+Fetching upstream changes from https://github.com/shobancs/spring-websample.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/shobancs/spring-websample.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision bd322d8b1e7f8c4a3efedb28bad365445d808c88 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f bd322d8b1e7f8c4a3efedb28bad365445d808c88 # timeout=10
+Commit message: "Merge pull request #3 from shobancs/bala_dev"
+ > git rev-list --no-walk bd322d8b1e7f8c4a3efedb28bad365445d808c88 # timeout=10
+[sample-maven] $ /bin/sh -xe /usr/local/apache-tomcat-9.0.14/temp/jenkins385980997334382080.sh
++ cd init
+/usr/local/apache-tomcat-9.0.14/temp/jenkins385980997334382080.sh: line 2: cd: init: No such file or directory
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
